@@ -14,7 +14,10 @@ public class GitHub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String x = "AAAA";
+        String x = "eeee";
+        if (x.contains("eeee")) {
+            System.out.println("hola");
+        };
     }
-    
+
 }
